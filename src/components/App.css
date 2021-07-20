@@ -1,0 +1,36 @@
+
+.valign-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: ce  ;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.custom-input {
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.35rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #495057;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.top-border {
+  border-top: 1px solid rgba(34,36,38,.15)
+}
+
+.bottom-border {
+  border-top: 1px solid rgba(34,36,38,.15)
+}
